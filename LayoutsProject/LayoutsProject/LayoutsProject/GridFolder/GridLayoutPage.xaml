@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsProject.GridFolder.GridLayoutPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Gray" ColumnSpacing="10" RowSpacing="10">
+            <!--Definição da quantidade de linhas-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <!--Definição da quantidade de colunas-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Label Text="Linha: 0, Coluna: 0" Grid.Row="0" Grid.Column="0" BackgroundColor="Aqua"/>
+            <Label Text="Linha: 0, Coluna: 1" Grid.Row="0" Grid.Column="1" BackgroundColor="Aqua"/>
+            <Label Text="Linha: 1, Coluna: 0" Grid.Row="1" Grid.Column="0" BackgroundColor="Aqua"/>
+            <Label Text="Linha: 1, Coluna: 1" Grid.Row="1" Grid.Column="1" BackgroundColor="Aqua"/>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

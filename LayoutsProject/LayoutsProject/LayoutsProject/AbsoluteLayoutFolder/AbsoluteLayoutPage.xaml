@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsProject.AbsoluteLayoutFolder.AbsoluteLayoutPage">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="Gray">
+            
+            <BoxView AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="20, 20, 1, .2" Color="Aqua"/>
+            
+            <BoxView AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds=".5, .5, 100, 200" Color="Yellow"/>
+
+            <BoxView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds=".5, 1, 1, .1" Color="Aqua"/>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
